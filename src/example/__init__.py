@@ -1,3 +1,3 @@
-from ._impl import response_on_ultimate_question, calculate_func_on_interval, apply
+from ._impl import apply, calculate_func_on_interval, response_on_ultimate_question
 
-__all__ = ("response_on_ultimate_question", "calculate_func_on_interval", "apply")
+__all__ = ("apply", "calculate_func_on_interval", "response_on_ultimate_question")
