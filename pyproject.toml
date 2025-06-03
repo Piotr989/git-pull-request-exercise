@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=72"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "examples"
+version = "0.0.1"
+description = "A package for homework exercises"
+authors = [
+    { name = "Grzegorz Bokota", email = "g.bokota@mimuw.edu.pl"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "pandas >= 1.3.0"
+]
+
+
+[project.license]
+text = "BSD 3-Clause"
+
+[tool.setuptools.packages.find]
+namespaces = false
+

@@ -1,0 +1,19 @@
+def response_on_ultimate_question():
+    """
+    This function returns a response to the ultimate question of life, the universe, and everything.
+    """
+    return 42
+
+
+def calculate_func_on_interval(func, start, end, num_points=100):
+    """This function calculates the sum of a function evaluated at discrete points in a given interval.
+    """
+    diff = end - start
+    step = diff / num_points
+    return [func(start + i * step) for i in range(num_points)]
+
+
+def apply(func, iterable):
+    """This function applies a given function to each element in an iterable and returns a list of results.
+    """
+    return [func(x) for x in iterable]
