@@ -25,7 +25,7 @@ Finally, add a comment to the merge request with a link to your repository.
 2. Select "Import project" from
 
    ![Create blank project](images/gitlab2.png)
-3. Select Repository by URL and provide `https://gitlab.mimuw.edu.pl/python-tools/git-pull-request-exercise` as URL.
+3. Select Repository by URL and provide `https://gitlab.mimuw.edu.pl/python-tools/git-pull-request-exercise.git` as URL.
    
    ![Import project](images/gitlab3.png)
  
@@ -34,6 +34,6 @@ Finally, add a comment to the merge request with a link to your repository.
 1. Select "Import repository" from 
 
    ![Import repository](images/github1.png)
-2. Provide `https://gitlab.mimuw.edu.pl/python-tools/git-pull-request-exercise` as URL and select "Begin import".
+2. Provide `https://gitlab.mimuw.edu.pl/python-tools/git-pull-request-exercise.git` as URL and select "Begin import".
    
    ![Import repository](images/github2.png)
