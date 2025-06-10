@@ -5,7 +5,7 @@ import numpy.testing as npt
 
 def test_response_on_ultimate_question():
     """Test the response to the ultimate question of life, the universe, and everything."""
-    assert response_on_ultimate_question() == 21
+    assert response_on_ultimate_question() == 42
 
 
 def test_apply():
