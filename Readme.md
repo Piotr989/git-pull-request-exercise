@@ -11,7 +11,7 @@ Then, create a merge request (or pull request if you use GitHub) from `adding_te
 
 Resolve any conflicts that may arise. 
 
-Finally, add a comment to the merge request with a link to your repository.
+Finally, add a comment to the merge request with a link to your repository and merge changes.
 
 
 

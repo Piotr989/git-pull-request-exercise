@@ -4,7 +4,7 @@ import numpy as np
 T = TypeVar('T')
 V = TypeVar('V')
 
-def response_on_ultimate_question() -> int:
+def response_on_ultimate_question():
     """
     This function returns a response to the ultimate question of life, the universe, and everything.
     """
